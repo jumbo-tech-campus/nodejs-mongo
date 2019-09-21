@@ -21,8 +21,7 @@
     },
     "author": "Geert Weggemans",
     "license": "MIT",
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "@jtc/base": "github:jumbo-tech-campus/nodejs-base",
         "@types/jasmine": "3.4.0",
