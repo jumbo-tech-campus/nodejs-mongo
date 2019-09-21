@@ -1,7 +1,7 @@
 {
-    "name": "@jtc/common",
+    "name": "@jtc/mongo",
     "version": "1.0.0",
-    "description": "Common code for Roadman ICT projects",
+    "description": "Common Mongo code for Jumbo projects",
     "repository": "https://github.com/jumbo-tech-campus/nodejs-common",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -22,8 +22,6 @@
     "author": "Geert Weggemans",
     "license": "MIT",
     "dependencies": {
-        "@types/node": "10.14.18",
-        "hot-shots": "6.4.1"
     },
     "devDependencies": {
         "@jtc/base": "github:jumbo-tech-campus/nodejs-base",
@@ -31,7 +29,6 @@
         "@types/nock": "10.0.3",
         "coveralls": "3.0.6",
         "jasmine": "3.5.0",
-        "nock": "11.3.5",
         "nodemon": "1.19.2",
         "nyc": "14.1.1",
         "source-map-support": "0.5.13",

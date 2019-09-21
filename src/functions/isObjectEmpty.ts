@@ -1,1 +1,0 @@
-export const isObjectEmpty = (obj: object) => Object.getOwnPropertyNames(obj).length === 0;
