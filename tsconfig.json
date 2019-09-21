@@ -1,0 +1,11 @@
+{
+    "extends": "@jtc/base/tsconfig-base.json",
+    "compilerOptions": {
+        "outDir": "dist"
+    },
+    "include": [
+        "src",
+        "spec",
+        "index.ts"
+    ]
+}

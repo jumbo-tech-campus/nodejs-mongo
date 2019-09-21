@@ -1,0 +1,3 @@
+{
+  "extends": "@jtc/base/tslint.json"
+}

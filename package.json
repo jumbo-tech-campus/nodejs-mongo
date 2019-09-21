@@ -1,0 +1,42 @@
+{
+    "name": "@jtc/common",
+    "version": "1.0.0",
+    "description": "Common code for Roadman ICT projects",
+    "repository": "https://github.com/jumbo-tech-campus/nodejs-common",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/src",
+        "dist/index.*"
+    ],
+    "scripts": {
+        "clean": "make clean",
+        "tslint": "make tslint",
+        "ts": "make ts",
+        "ts:incremental": "make ts-incremental",
+        "watch": "make watch",
+        "test": "make test",
+        "build": "make build",
+        "prepare": "make prepare"
+    },
+    "author": "Geert Weggemans",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "10.14.18",
+        "hot-shots": "6.4.1"
+    },
+    "devDependencies": {
+        "@jtc/base": "github:jumbo-tech-campus/nodejs-base",
+        "@types/jasmine": "3.4.0",
+        "@types/nock": "10.0.3",
+        "coveralls": "3.0.6",
+        "jasmine": "3.5.0",
+        "nock": "11.3.5",
+        "nodemon": "1.19.2",
+        "nyc": "14.1.1",
+        "source-map-support": "0.5.13",
+        "tslint": "5.20.0",
+        "tslint-microsoft-contrib": "6.2.0",
+        "typescript": "3.6.3"
+    }
+}
