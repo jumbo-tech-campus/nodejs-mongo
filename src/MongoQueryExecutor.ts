@@ -1,5 +1,6 @@
 import * as mongoose from 'mongoose';
 import {AsyncMeasurer, Measurable} from '@jtc/common';
+import {MongoQueryError} from './errors/MongoQueryError';
 
 interface MongoQueryExecutorParameters<MongoDocument extends mongoose.Document> {
   asyncMeasurer: AsyncMeasurer;
@@ -34,7 +35,7 @@ export class MongoQueryExecutor<MongoDocument extends mongoose.Document> {
         } catch (error) {
           tags.result = error.name;
 
-          throw error;
+          throw new MongoQueryError(error, queryName);
         }
       },
     };
