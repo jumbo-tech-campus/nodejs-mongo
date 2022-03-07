@@ -31,7 +31,7 @@
         "@types/jasmine": "3.4.0",
         "@types/nock": "10.0.3",
         "coveralls": "3.0.9",
-        "jasmine": "3.5.0",
+        "jasmine": "3.99.0",
         "nodemon": "1.19.4",
         "nyc": "14.1.1",
         "source-map-support": "0.5.16",
