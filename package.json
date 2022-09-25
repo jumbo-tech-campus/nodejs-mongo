@@ -33,7 +33,7 @@
         "coveralls": "3.0.9",
         "jasmine": "3.5.0",
         "nodemon": "1.19.4",
-        "nyc": "14.1.1",
+        "nyc": "15.1.0",
         "source-map-support": "0.5.16",
         "tslint": "5.20.1",
         "tslint-microsoft-contrib": "6.2.0",
